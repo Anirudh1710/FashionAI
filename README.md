@@ -27,7 +27,7 @@ To experiment with the search tool, follow these steps:
 4. _Interact with the Search Tool_: In this section, you can test and experiment with the search tool. You can input various user queries to see how the system retrieves and recommends fashion products based on the descriptions, prices, ratings, brand names, and other attributes from the dataset.
 In this section, two cells are provided to experiment with Semantic Search and Generative Search.
  
- ![image](https://github.com/Anirudh1710/FashionAI/assets/32814013/e32f0557-07ef-447b-b8aa-a745f1f7e351)
+ ![image](https://github.com/Anirudh1710/FashionAI/e32f0557-07ef-447b-b8aa-a745f1f7e351)
 
 4. _Analyse Results_: Review the recommended products to understand how well the search tool matches the user query. This will help in assessing the accuracy and effectiveness of the search algorithm.
 > Make sure to set the OpenAI Api key in ‘OpenAI_API_Key.txt’ file 
