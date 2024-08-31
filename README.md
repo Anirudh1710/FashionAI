@@ -11,8 +11,7 @@
 * [Example Results](#example-results)
 * [Conclusion](#conclusion)
 
-> - Detailed report of the project is available at [here](https://github.com/shruthipv96/FashionAI/blob/main/FashionAI_Doc.pdf).
-> - In case, you are not able to download the chroma db and dataset from the git lfs repo, the same content is available in this [drive](https://drive.google.com/drive/folders/1uKC0lkA-xBcDe-vJ7UbfKi71l9zIKOcy?usp=drive_link) location. Dataset is also available in the link provided in the following section.
+> - Detailed report of the project is available at [here](https://github.com/Anirudh1710/FashionAI/blob/main/FashionAI_Doc.pdf).
 
 ## Dataset
 The dataset used for this project is [Myntra Fashion Product Dataset (kaggle.com)](https://www.kaggle.com/datasets/djagatiya/myntra-fashion-product-dataset). It includes thousands of fashion products, each with detailed information such as description, price, rating, brand name, and other attributes.
@@ -28,7 +27,7 @@ To experiment with the search tool, follow these steps:
 4. _Interact with the Search Tool_: In this section, you can test and experiment with the search tool. You can input various user queries to see how the system retrieves and recommends fashion products based on the descriptions, prices, ratings, brand names, and other attributes from the dataset.
 In this section, two cells are provided to experiment with Semantic Search and Generative Search.
  
- ![image](https://github.com/shruthipv96/FashionAI/assets/32814013/e32f0557-07ef-447b-b8aa-a745f1f7e351)
+ ![image](https://github.com/Anirudh1710/FashionAI/assets/32814013/e32f0557-07ef-447b-b8aa-a745f1f7e351)
 
 4. _Analyse Results_: Review the recommended products to understand how well the search tool matches the user query. This will help in assessing the accuracy and effectiveness of the search algorithm.
 > Make sure to set the OpenAI Api key in ‘OpenAI_API_Key.txt’ file 
@@ -36,7 +35,7 @@ In this section, two cells are provided to experiment with Semantic Search and G
 Feel free to experiment with different queries and explore different aspects of the dataset to fully understand the capabilities of the search system.
 
 ## System Design
-![image](https://github.com/shruthipv96/FashionAI/assets/32814013/abb519f4-737d-4249-9419-a7efd3c18fb9)
+![image](https://github.com/Anirudh1710/FashionAI/assets/32814013/abb519f4-737d-4249-9419-a7efd3c18fb9)
 
 ## Models Used
 | Topic | Model |
@@ -47,10 +46,10 @@ Feel free to experiment with different queries and explore different aspects of 
 
 ## Example Results
 From Semantic search with reranking layer,
-![Query3_SearchLayer](https://github.com/shruthipv96/FashionAI/assets/32814013/0e2814bf-8318-4cc4-b18a-a47c5f495a27)
+![Query3_SearchLayer](https://github.com/Anirudh1710/FashionAI/assets/32814013/0e2814bf-8318-4cc4-b18a-a47c5f495a27)
 
 From Generative search final layer,
-![Query3_GenerativeSearch](https://github.com/shruthipv96/FashionAI/assets/32814013/7701b2b3-ecde-439d-9d10-e5ad91e7e7c8)
+![Query3_GenerativeSearch](https://github.com/Anirudh1710/FashionAI/assets/32814013/7701b2b3-ecde-439d-9d10-e5ad91e7e7c8)
 
 ## Conclusion
 Finally, with the function GenerativeSearch(), user can input a query to fetch a product from the vast database using natural language.
@@ -67,7 +66,4 @@ Finally, with the function GenerativeSearch(), user can input a query to fetch a
 - When using OpenAI embedding function, faced an error with ‘$’ character input. But I did not choose the model anyways since I could find something else with similar performance.
 - There is still a room to explore the search query. For an example, if the user queries for “red t-shirt” it always gives the same set of results.
 
-
-## Contact
-Created by [Shruthip Venkatesh](https://github.com/shruthipv96) - feel free to contact me!
 
