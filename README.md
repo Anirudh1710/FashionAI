@@ -11,7 +11,7 @@
 * [Example Results](#example-results)
 * [Conclusion](#conclusion)
 
-> - Detailed report of the project is available at [here](https://github.com/shruthipv96/FashionAI/blob/main/FashionAI_Doc.pdf).
+> - Detailed report of the project is available at [here](https://github.com/Anirudh1710/FashionAI/blob/main/FashionAI_Doc.pdf).
 
 ## Dataset
 The dataset used for this project is [Myntra Fashion Product Dataset (kaggle.com)](https://www.kaggle.com/datasets/djagatiya/myntra-fashion-product-dataset). It includes thousands of fashion products, each with detailed information such as description, price, rating, brand name, and other attributes.
